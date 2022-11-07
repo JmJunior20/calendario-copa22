@@ -34,6 +34,12 @@ header h2 {
     color: #E1E1E6;
 }
 
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .card {
     padding: 32px 23px;
     text-align: center;
