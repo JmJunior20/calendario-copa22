@@ -1,3 +1,24 @@
+function createGame(player1, hour, player2) {
+    return `
+        <li>
+            <img src="./assets/${player1}.svg" alt="Bandeira do ${player1}" />
+            <strong>${hour}</strong>
+            <img src="./assets/${player2}.svg" alt="Bandeira do ${player2}" />
+        </li>
+    `
+}
+
+function createCard(date, day, games) {
+  return `
+        <div class="card">
+            <h2>${date} <span>${day}</span></h2>
+            <ul>
+               ${games} 
+            </ul>
+        </div>
+    `;
+}
+
 document.querySelector("#app").innerHTML = `
     <header>
         <h1>COPA DO MUNDO 22</h1>
@@ -5,16 +26,19 @@ document.querySelector("#app").innerHTML = `
     </header>
 
     <main id="cards">
-        <div class="card">
-            <h2>22/11 <span>domingo</span></h2>
-
-            <ul>
-            <li>
-                <img src="./assets/Catar.svg" alt="Bandeira do Catar" />
-                <strong>13:00</strong>
-                <img src="./assets/Equador.svg" alt="Bandeira do Equador" />
-            </li>
-            </ul>
-        </div>
+        ${createCard('20/11', 'domingo', 
+        createGame('Catar', '13:00', 'Equador')
+        )}
+        ${createCard('21/11', 'segunda', 
+        createGame('Inglaterra', '10:00', 'Ira') + 
+        createGame('Senegal', '13:00', 'Holanda') + 
+        createGame('Estados_Unidos', '16:00', 'Pais_de_Gales')
+        )}
+        ${createCard('22/11', 'terça', 
+        createGame('Argentina', '07:00', 'Arabia_Saudita') + 
+        createGame('Dinamarca', '10:00', 'Tunisia') + 
+        createGame('Mexico', '13:00', 'Polonia') + 
+        createGame('Franca', '16:00', 'Australia')
+        )}
     </main>
 `;
