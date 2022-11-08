@@ -101,7 +101,7 @@ header h2 {
 }
 
 .card ul li img {
-    width: 60px;
+    width: 55px;
     border-radius: 50%;
 }
 
@@ -133,3 +133,11 @@ header h2 {
     }
 }
 
+
+@media (min-width: 700px) {
+    #cards {
+        max-width: 670px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
