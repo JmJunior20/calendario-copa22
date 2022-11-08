@@ -4,7 +4,7 @@
 
 Projeto desenvolvido durante o NLW Copa - Explore. O projeto trás o calendário com os jogos da Copa do Mundo de 2022.
 
-[Cliquei aqui para acessar](https://hashtagadotei.netlify.app/)
+[Cliquei aqui para acessar](https://calendariocopajmj.netlify.app/)
 
 ## 🛠️ Tecnologias
 
