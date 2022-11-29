@@ -90,8 +90,8 @@ document.querySelector("#cards").innerHTML =
     "terça",
     createGame("Holanda", "2 X 0", "Catar") +
       createGame("Equador", "1 X 2", "Senegal") +
-      createGame("Ira", "16:00", "Estados_Unidos") +
-      createGame("Pais_de_Gales", "16:00", "Inglaterra")
+      createGame("Ira", "0 X 1", "Estados_Unidos") +
+      createGame("Pais_de_Gales", "0 X 3", "Inglaterra")
   ) +
   createCard(
     "30/11",
