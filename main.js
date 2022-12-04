@@ -110,7 +110,7 @@ document.querySelector("#cards").innerHTML =
       createGame("Costa_Rica", "2 X 4", "Alemanha")
   ) +
   createCard(
-    "02/11",
+    "02/12",
     "sexta",
     createGame("Coreia_do_Sul", "2 X 1", "Portugal") +
       createGame("Gana", "0 X 2", "Uruguai") +
@@ -118,8 +118,14 @@ document.querySelector("#cards").innerHTML =
       createGame("Servia", "2 X 3", "Suica")
   ) +
   createCard(
-    "03/11",
+    "03/12",
     "sábado",
     createGame("Holanda", "3 X 1", "Estados_Unidos") +
       createGame("Argentina", "2 X 1", "Australia")
+  ) +
+  createCard(
+    "04/12",
+    "domingo",
+    createGame("Franca", "3 X 1", "Polonia") +
+      createGame("Inglaterra", "3 X 0", "Senegal")
   );
