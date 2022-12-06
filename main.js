@@ -133,5 +133,5 @@ document.querySelector("#cards").innerHTML =
     "05/12",
     "segunda",
     createGame("Japao", "1(1)X(3)1", "Croacia") +
-      createGame("Brasil", "0 X 0", "Coreia_do_sul")
+      createGame("Brasil", "4 X 1", "Coreia_do_sul")
   );
