@@ -134,4 +134,10 @@ document.querySelector("#cards").innerHTML =
     "segunda",
     createGame("Japao", "1(1)X(3)1", "Croacia") +
       createGame("Brasil", "4 X 1", "Coreia_do_sul")
+  ) +
+  createCard(
+    "06/12",
+    "terça",
+    createGame("Marrocos", "0(3)X(0)0", "Espanha") +
+      createGame("Portugal", "6 X 1", "Suica")
   );
