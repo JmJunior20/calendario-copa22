@@ -151,4 +151,9 @@ document.querySelector("#cards").innerHTML =
     "13/12",
     "terça",
     createGame("Argentina", "3 X 0", "Croacia")
+  ) +
+  createCard(
+    "14/12",
+    "quarta",
+    createGame("Franca", "16:00", "Marrocos")
   );
